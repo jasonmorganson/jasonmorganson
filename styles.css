@@ -7,9 +7,9 @@
 }
 
 @font-face {
-    font-family: "NeoRetroDrawRegular";
-    src: url("/fonts/NEORD___-webfont.woff") format("woff");
-    src: url("/fonts/NEORD___-webfont.ttf") format("truetype");
+    font-family: "Neo Retro Draw";
+    src: url("/fonts/NeoRetroDraw.woff") format("woff");
+    src: url("/fonts/NeoRetroDraw.ttf") format("truetype");
     font-weight: normal;
     font-style: normal;
 }
@@ -94,7 +94,7 @@ a:focus {
 
 #name {
     font-size: 9vw;
-    font-family: "NeoRetroDrawRegular", sans-serif;
+    font-family: "Neo Retro Draw", sans-serif;
 }
 
 #email {
