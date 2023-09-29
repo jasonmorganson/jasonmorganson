@@ -36,15 +36,15 @@
   box-sizing: border-box;
 }
 
+html,
+body {
+  min-height: 100%;
+}
+
 html {
   font-family: sans-serif;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
-}
-
-html,
-body {
-  min-height: 100%;
 }
 
 /* Show a shadow under the broswer chrome at the top of the page */
@@ -77,6 +77,8 @@ body {
 a {
   color: black;
   text-decoration: none;
+  margin: 10px;
+  white-space: nowrap;
 }
 
 a:active,
@@ -102,7 +104,6 @@ a:focus {
 #name {
   font-size: 9vw;
   font-family: "NeoRetroDrawRegular", sans-serif;
-  white-space: nowrap;
 }
 
 #email {
@@ -121,8 +122,4 @@ a:focus {
   font-size: 5vw;
   font-weight: bold;
   text-align: center;
-}
-
-#Social a {
-  margin: 10px;
 }
