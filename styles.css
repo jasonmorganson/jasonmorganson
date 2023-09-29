@@ -123,8 +123,10 @@ a:focus {
 }
 
 #cell,
-#Social a {
+#Social {
     font-family: 'Special Elite', cursive, serif;
+    font-size: 5vw;
+    font-weight: bold;
 }
 
 #Social {
@@ -133,8 +135,6 @@ a:focus {
 
 #Social a {
     margin: 10px;
-    font-size: 5vw;
-    font-weight: bold;
 }
 
 #cell {
