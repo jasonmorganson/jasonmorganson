@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html lang="en" version="HTML+RDFa 1.1"
     prefix="dc:http://purl.org/dc/terms/ md: http://www.w3.org/ns/md# og: http://ogp.me/ns# foaf: http://xmlns.com/foaf/0.1/ rdfa: http://www.w3.org/ns/rdfa# rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns# rdfs: http://www.w3.org/1999/02/22-rdf-syntax-ns# xsd: http://www.w3.org/2001/XMLSchema# cert: http://www.w3.org/ns/auth/cert#"
     class="index wf-ptmono-n4-active wf-specialelite-n4-active wf-sourcesanspro-n3-active wf-sourcesanspro-i3-active wf-sourcesanspro-n4-active wf-sourcesanspro-n6-active wf-sourcesanspro-n7-active wf-sourcesanspro-n8-active wf-sourcecodepro-n4-active wf-neoretrodrawregular-n4-active wf-strokedimension-n4-active wf-active">
@@ -73,30 +74,33 @@
 </head>
 
 <body vocab="http://schema.org/">
-    <header></header>
     <div id="content">
         <div typeof="PersonalProfileDocument foaf:PersonalProfileDocument"
             property="PersonalProfileDocument foaf:PersonalProfileDocument" about="http://jason.morganson.me/profile#"
-            rdf:about="http://jason.morganson.me/profile#" class="PersonalProfileDocument"><span
-                property="maker foaf:maker" resource="http://jason.morganson.me"
+            rdf:about="http://jason.morganson.me/profile#" class="PersonalProfileDocument">
+            <span property="maker foaf:maker" resource="http://jason.morganson.me"
                 rdf:resource="http://jason.morganson.me">
                 <div class="hidden-text">Jason Morganson</div>
-            </span><span property="primaryTopic foaf:primaryTopic" resource="http://jason.morganson.me"
+            </span>
+            <span property="primaryTopic foaf:primaryTopic" resource="http://jason.morganson.me"
                 rdf:resource="http://jason.morganson.me">
                 <div class="hidden-text">Jason Morganson</div>
-            </span></div>
+            </span>
+        </div>
         <div typeof="Person foaf:Person" property="Person foaf:Person" about="http://jason.morganson.me"
             rdf:about="http://jason.morganson.me" itemtype="http://schema.org/Person" itemscope=""
             profile="http://microformats.org/wiki/hcard" class="Person vcard h-card">
 
             <!-- Certificate-->
-            <span rel="cert:key" property="cert:key" itemprop="cert:key" itemscope="" class="cert hidden-text"><span
-                    typeof="cert:RSAPublicKey" property="cert:RSAPublicKey" itemprop="cert:key" itemscope=""
-                    itemtype="cert:RSAPublicKey"><span property="cert:modulus" itemprop="cert:modulus" itemscope=""
-                        datatype="xsd:hexBinary"
+            <span rel="cert:key" property="cert:key" itemprop="cert:key" itemscope="" class="cert hidden-text">
+                <span typeof="cert:RSAPublicKey" property="cert:RSAPublicKey" itemprop="cert:key" itemscope=""
+                    itemtype="cert:RSAPublicKey">
+                    <span property="cert:modulus" itemprop="cert:modulus" itemscope="" datatype="xsd:hexBinary"
                         rdf:datatype="xsd:hexBinary">8C8B05E6AF8C175FC0AFE56AD7BF763E819FD92881AE22283698A5890B49D95EB91F13CAA1159EA568839534F949A8EF477B9A8E4ECF0067F1B7FCD0F2061F5B3FCE73BB309DD127A019C39B9586B5D19BDCF0293314ACFA5DF514CD010593F1A5C18CE3E9B761DD8FB2F7E02DCACF1A6CC36CE61EBFEC4474E06E954D2A5F031C3BE0A230257710146AA841D85FE4095471FF9C801BEA740970F39D88CCABFED34982EA747134FB0E601C5AF87BD5E5BD4B9FD70569B28698C83B496555D78B2BBE2F752CA4E21173EF823F2DD1530A483A873AF26903475F6C466178F06ADB3874379B5E02316AFEBB890A463856244D282AF7AC999C357BA6DC9EE8027961</span><span
                         property="cert:exponent" itemprop="cert:exponent" itemscope="" datatype="xsd:int"
-                        rdf:datatype="xsd:int">65537</span></span></span>
+                        rdf:datatype="xsd:int">65537</span>
+                </span>
+            </span>
 
             <!-- Web Page-->
             <div id="webpage" property="url og:url og:website foaf:homepage" itemprop="url" itemscope=""
@@ -105,16 +109,19 @@
             </div>
 
             <!-- Name-->
-            <div id="name" property="name foaf:name" itemprop="name" itemscope="" class="p-fn fn p-name name"><span
-                    id="givenName" property="og:first_name foaf:firstName" itemprop="givenName" itemscope=""
-                    class="p-given-name given-name name">Jason</span><span class="name"> </span><span id="familyName"
-                    property="og:last_name foaf:surname" itemprop="familyName" itemscope=""
-                    class="p-family-name family-name name">Morganson</span></div>
+            <div id="name" property="name foaf:name" itemprop="name" itemscope="" class="p-fn fn p-name name">
+                <span id="givenName" property="og:first_name foaf:firstName" itemprop="givenName" itemscope=""
+                    class="p-given-name given-name name">Jason</span>
+                <span class="name"> </span>
+                <span id="familyName" property="og:last_name foaf:surname" itemprop="familyName" itemscope=""
+                    class="p-family-name family-name name">Morganson</span>
+            </div>
 
             <!-- E-mail-->
             <div id="email" property="email foaf:openid foaf:mbox rdf:resource" itemprop="email" itemscope=""
-                class="u-email email"><a title="E-Mail" href="mailto:jason@morganson.me"
-                    class="email">jason@morganson.me</a></div>
+                class="u-email email">
+                <a title="E-Mail" href="mailto:jason@morganson.me" class="email">jason@morganson.me</a>
+            </div>
 
             <!-- Cellphone-->
             <div id="cell" class="p-tel tel">
@@ -128,7 +135,8 @@
             <div id="sms" class="p-tel tel">
                 <div class="type">
                     <div class="hidden-text">SMS</div>
-                </div><a title="SMS" property="telephone" itemprop="telephone" itemscope="" href="sms:15183024299"
+                </div>
+                <a title="SMS" property="telephone" itemprop="telephone" itemscope="" href="sms:15183024299"
                     class="value u-url url">
                     <div class="hidden-text">SMS</div>
                 </a>
@@ -144,16 +152,8 @@
                 <a id="GitHub" title="GitHub" href="https://github.com/jasonmorganson" rel="me">Github</a>
             </div>
 
-            <!-- Jobs-->
-            <div property="jobTitle og:title foaf:title" itemprop="jobTitle" itemscope="" class="role hidden-text">
-                Software Engineer</div>
-
-            <!-- Companies-->
-            <div property="memberOf owns worksFor foaf:Organization" class="org hidden-text">14 Productions</div>
         </div>
-        <!--.footer<a title="hCard" href="http://microformats.org/wiki/hcard">hCard embedded</a><a rel="profile" href="http://microformats.org/profile/hcard">hCard</a><a title="vCard" type="text/directory" href="http://h2vx.com/vcf/jason.morganson.me">Download vCard</a><a title="Portable Contact (JSON)" type="text/javascript" href="http://www.plaxo.com/pdata/vcard?vcardUrl=http%3A%2F%2Fh2vx.com%2Fvcf%2Fjason.morganson.me&amp;format=json&amp;plaintext=1&amp;pretty=1">Portable Contact (JSON)</a><a title="Portable Contact (XML)" type="text/xml" href="http://www.plaxo.com/pdata/vcard?vcardUrl=http%3A%2F%2Fh2vx.com%2Fvcf%2Fjason.morganson.me&amp;format=json&amp;plaintext=1&amp;pretty=1">Portable Contact (XML)</a>-->
     </div>
-    <footer></footer>
 </body>
 
 </html>
