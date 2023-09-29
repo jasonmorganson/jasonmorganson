@@ -28,7 +28,6 @@
     display: none;
 }
 
-/* apply a natural box layout model to all elements */
 * {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
@@ -44,12 +43,10 @@ html {
 html,
 body {
 
-    /* Workaround for some mobile browsers */
-    /* Ensure the html element always takes up the full height of the browser window */
     min-height: 100%;
 }
 
-/* Show a shadow under the broswe chrome at the top of the page */
+/* Show a shadow under the broswer chrome at the top of the page */
 body:before {
 
     content: "";
@@ -71,15 +68,12 @@ body:before {
 body {
 
     margin: 0;
-    /* This image will be displayed fullscreen */
     background: url('/img/background.png') no-repeat center center;
     -moz-background-size: cover;
     -webkit-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
 }
-
-/* Defaults */
 
 a {
     color: black;
@@ -106,15 +100,11 @@ a:focus {
     vertical-align: middle;
 }
 
-/* Name */
-
 #name {
     font-size: 9vw;
     font-family: 'NeoRetroDrawRegular', sans-serif;
     white-space: nowrap;
 }
-
-/* Email */
 
 #email {
     font-size: 13vw;
@@ -122,21 +112,18 @@ a:focus {
     margin-top: -10px;
 }
 
-#cell,
+#cell {
+    font-family: 'Special Elite', cursive, serif;
+    font-size: 12vw;
+}
+
 #Social {
     font-family: 'Special Elite', cursive, serif;
     font-size: 5vw;
     font-weight: bold;
-}
-
-#Social {
     text-align: center;
 }
 
 #Social a {
     margin: 10px;
-}
-
-#cell {
-    font-size: 12vw;
 }
