@@ -376,31 +376,11 @@ a {
     font-family: 'NeoRetroDrawRegular', sans-serif;
 }
 
-.name::selection,
-.name::-moz-selection {
-
-    font-family: 'NeoRetroShadowRegular', sans-serif;
-    color: red;
-    background: #ffb7b7;
-    /* Safari */
-}
-
-
-
 /* Email */
 
 #email {
     font-size: 13vw;
     font-family: 'Stroke Dimension', cursive, serif;
-}
-
-#email a:hover {
-    color: blue;
-}
-
-#email::selection,
-#email::-moz-selection {
-    color: blue;
 }
 
 .tel,
@@ -425,10 +405,6 @@ a {
 
 #email {
     margin-top: -10px;
-}
-
-#email a:hover {
-    color: black;
 }
 
 #cell {
