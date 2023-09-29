@@ -2,7 +2,8 @@
     font-family: "Special Elite";
     font-style: normal;
     font-weight: 400;
-    src: url(https://fonts.gstatic.com/s/specialelite/v18/XLYgIZbkc4JPUL5CVArUVL0ntnAOTQ.ttf) format("truetype");
+    src: url("/fonts/SpecialElite.ttf");
+    src: url("/fonts/SpecialElite.ttf") format("truetype");
 }
 
 @font-face {
