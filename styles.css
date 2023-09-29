@@ -1,45 +1,7 @@
-/*** uncss> filename: styles.css ***/
-/*** uncss> filename: build.css ***/
-/*! normalize.css v2.0.1 | MIT License | git.io/normalize */
-
-/* ==========================================================================
-   HTML5 display definitions
-   ========================================================================== */
-
-/**
- * Correct `block` display not defined in IE 8/9.
- */
-
-/**
- * Correct `inline-block` display not defined in IE 8/9.
- */
-
-/**
- * Prevent modern browsers from displaying `audio` without controls.
- * Remove excess height in iOS 5 devices.
- */
-
-/**
- * Address styling not present in IE 8/9.
- */
-
-/* ==========================================================================
-   Base
-   ========================================================================== */
-
-/**
- * 1. Set default font family to sans-serif.
- * 2. Prevent iOS text size adjust after orientation change, without disabling
- *    user zoom.
- */
-
 html {
     font-family: sans-serif;
-    /* 1 */
     -webkit-text-size-adjust: 100%;
-    /* 2 */
     -ms-text-size-adjust: 100%;
-    /* 2 */
 }
 
 /**
@@ -71,140 +33,6 @@ a:hover {
     outline: 0;
 }
 
-/* ==========================================================================
-   Typography
-   ========================================================================== */
-
-/**
- * Address variable `h1` font size within `section` and `article` contexts in
- * Firefox 4+, Safari 5, and Chrome.
- */
-
-/**
- * Address styling not present in IE 8/9, Safari 5, and Chrome.
- */
-
-/**
- * Address style set to `bolder` in Firefox 4+, Safari 5, and Chrome.
- */
-
-/**
- * Address styling not present in Safari 5 and Chrome.
- */
-
-/**
- * Address styling not present in IE 8/9.
- */
-
-/**
- * Correct font family set oddly in Safari 5 and Chrome.
- */
-
-/**
- * Improve readability of pre-formatted text in all browsers.
- */
-
-/**
- * Set consistent quote types.
- */
-
-/**
- * Address inconsistent and variable font size in all browsers.
- */
-
-/**
- * Prevent `sub` and `sup` affecting `line-height` in all browsers.
- */
-
-/* ==========================================================================
-   Embedded content
-   ========================================================================== */
-
-/**
- * Remove border when inside `a` element in IE 8/9.
- */
-
-/**
- * Correct overflow displayed oddly in IE 9.
- */
-
-/* ==========================================================================
-   Figures
-   ========================================================================== */
-
-/**
- * Address margin not present in IE 8/9 and Safari 5.
- */
-
-/* ==========================================================================
-   Forms
-   ========================================================================== */
-
-/**
- * Define consistent border, margin, and padding.
- */
-
-/**
- * 1. Correct `color` not being inherited in IE 8/9.
- * 2. Remove padding so people aren't caught out if they zero out fieldsets.
- */
-
-/**
- * 1. Correct font family not being inherited in all browsers.
- * 2. Correct font size not being inherited in all browsers.
- * 3. Address margins set differently in Firefox 4+, Safari 5, and Chrome.
- */
-
-/**
- * Address Firefox 4+ setting `line-height` on `input` using `!important` in
- * the UA stylesheet.
- */
-
-/**
- * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
- *    and `video` controls.
- * 2. Correct inability to style clickable `input` types in iOS.
- * 3. Improve usability and consistency of cursor style between image-type
- *    `input` and others.
- */
-
-/**
- * Re-set default cursor for disabled elements.
- */
-
-/**
- * 1. Address box sizing set to `content-box` in IE 8/9.
- * 2. Remove excess padding in IE 8/9.
- */
-
-/**
- * 1. Address `appearance` set to `searchfield` in Safari 5 and Chrome.
- * 2. Address `box-sizing` set to `border-box` in Safari 5 and Chrome
- *    (include `-moz` to future-proof).
- */
-
-/**
- * Remove inner padding and search cancel button in Safari 5 and Chrome
- * on OS X.
- */
-
-/**
- * Remove inner padding and border in Firefox 4+.
- */
-
-/**
- * 1. Remove default vertical scrollbar in IE 8/9.
- * 2. Improve readability and alignment in all browsers.
- */
-
-/* ==========================================================================
-   Tables
-   ========================================================================== */
-
-/**
- * Remove most spacing between table cells.
- */
-/*** uncss> filename: https://fonts.googleapis.com/css?family=PT+Mono%7CSpecial+Elite%7CSource+Sans+Pro:light,lightitalic,book,normal,semi-bold,bold,ultra-bold%7CSource+Code+Pro ***/
 
 @font-face {
     font-family: 'Special Elite';
@@ -212,8 +40,6 @@ a:hover {
     font-weight: 400;
     src: url(https://fonts.gstatic.com/s/specialelite/v18/XLYgIZbkc4JPUL5CVArUVL0ntnAOTQ.ttf) format('truetype');
 }
-
-/*** uncss> filename: styles/neoretrodraw.css ***/
 
 @font-face {
     font-family: 'NeoRetroDrawRegular';
@@ -227,7 +53,6 @@ a:hover {
 }
 
 
-/*** uncss> filename: styles/strokedimension.css ***/
 
 @font-face {
     font-family: 'Stroke Dimension';
@@ -238,12 +63,6 @@ a:hover {
 }
 
 
-/*** uncss> filename: styles/style.css ***/
-/*** Styles ***/
-
-
-
-/** Body **/
 
 html,
 body {
