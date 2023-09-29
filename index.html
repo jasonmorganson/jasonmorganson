@@ -205,22 +205,6 @@
     </div>
     <footer></footer>
     <script src="build.js"></script>
-    <script>require('brunch-console-polyfill');
-
-        var $ = require('component-jquery');
-
-        // Switch iMessage URI depending on the platform
-        var iOS = (navigator.userAgent.match(/(iPad|iPhone|iPod)/i) ? true : false);
-        var iMessage = iOS ? "sms:" : "imessage://";
-        $("#iMessage").attr("href", iMessage + "jason@morganson.me");
-
-        var domready = require('jb55-domready')
-        domready(function () {
-
-            $(document).bind('touchmove', false);
-            helium.init();;
-        })
-    </script>
 </body>
 
 </html>
