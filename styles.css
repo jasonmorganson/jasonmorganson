@@ -67,6 +67,10 @@ body:before {
 
 body {
   margin: 0;
+  text-align: center;
+  text-justify: inter-word;
+  vertical-align: middle;
+  white-space: nowrap;
   background: url("/img/background.png") no-repeat center center;
   -moz-background-size: cover;
   -webkit-background-size: cover;
@@ -77,8 +81,6 @@ body {
 a {
   color: black;
   text-decoration: none;
-  margin: 10px;
-  white-space: nowrap;
 }
 
 a:active,
@@ -94,13 +96,6 @@ a:focus {
   overflow: hidden;
 }
 
-#name,
-#email {
-  text-align: justify;
-  text-justify: inter-word;
-  vertical-align: middle;
-}
-
 #name {
   font-size: 9vw;
   font-family: "NeoRetroDrawRegular", sans-serif;
@@ -109,7 +104,6 @@ a:focus {
 #email {
   font-size: 13vw;
   font-family: "Stroke Dimension", cursive, serif;
-  margin-top: -10px;
 }
 
 #cell {
@@ -120,6 +114,4 @@ a:focus {
 #Social {
   font-family: "Special Elite", cursive, serif;
   font-size: 5vw;
-  font-weight: bold;
-  text-align: center;
 }
