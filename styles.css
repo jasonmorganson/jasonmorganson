@@ -41,14 +41,6 @@ html {
     -ms-text-size-adjust: 100%;
 }
 
-/**
- * Remove default margin.
- */
-
-body {
-    margin: 0;
-}
-
 html,
 body {
 
@@ -78,6 +70,7 @@ body:before {
 
 body {
 
+    margin: 0;
     /* This image will be displayed fullscreen */
     background: url('/img/background.png') no-repeat center center;
     -moz-background-size: cover;
@@ -118,6 +111,7 @@ a:focus {
 #name {
     font-size: 9vw;
     font-family: 'NeoRetroDrawRegular', sans-serif;
+    white-space: nowrap;
 }
 
 /* Email */
@@ -125,6 +119,7 @@ a:focus {
 #email {
     font-size: 13vw;
     font-family: 'Stroke Dimension', cursive, serif;
+    margin-top: -10px;
 }
 
 #cell,
@@ -140,14 +135,6 @@ a:focus {
     margin: 10px;
     font-size: 5vw;
     font-weight: bold;
-}
-
-#name {
-    white-space: nowrap;
-}
-
-#email {
-    margin-top: -10px;
 }
 
 #cell {
