@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 
-<html lang="en" version="HTML+RDFa 1.1" prefix="og: http://ogp.me/ns# foaf: http://xmlns.com/foaf/0.1/ rdfa: http://www.w3.org/ns/rdfa# rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns# >
+<html lang="en" version="HTML+RDFa 1.1" prefix="og: http://ogp.me/ns# rdfa: http://www.w3.org/ns/rdfa# rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns# >
 
 <head>
     <!-- Site Properities-->
@@ -67,40 +67,27 @@
 
 <body vocab="http://schema.org/">
     <div id="content">
-        <div typeof="PersonalProfileDocument foaf:PersonalProfileDocument"
-            property="PersonalProfileDocument foaf:PersonalProfileDocument" about="http://jason.morganson.me/profile#"
-            rdf:about="http://jason.morganson.me/profile#" class="PersonalProfileDocument">
-            <span property="maker foaf:maker" resource="http://jason.morganson.me"
-                rdf:resource="http://jason.morganson.me">
-                <div class="hidden-text">Jason Morganson</div>
-            </span>
-            <span property="primaryTopic foaf:primaryTopic" resource="http://jason.morganson.me"
-                rdf:resource="http://jason.morganson.me">
-                <div class="hidden-text">Jason Morganson</div>
-            </span>
-        </div>
-        <div typeof="Person foaf:Person" property="Person foaf:Person" about="http://jason.morganson.me"
-            rdf:about="http://jason.morganson.me" itemtype="http://schema.org/Person" itemscope=""
-            profile="http://microformats.org/wiki/hcard" class="Person vcard h-card">
+        <div typeof="Person" property="Person" about="http://jason.morganson.me" rdf:about="http://jason.morganson.me"
+            itemtype="http://schema.org/Person" itemscope="" profile="http://microformats.org/wiki/hcard"
+            class="Person vcard h-card">
 
             <!-- Web Page-->
-            <div id="webpage" property="url og:url og:website foaf:homepage" itemprop="url" itemscope=""
+            <div id="webpage" property="url og:url og:website" itemprop="url" itemscope=""
                 rdf:resource="http://jason.morganson.me" class="u-url url">
                 <div class="hidden-text">jason.morganson.me</div>
             </div>
 
             <!-- Name-->
-            <div id="name" property="name foaf:name" itemprop="name" itemscope="" class="p-fn fn p-name name">
-                <span id="givenName" property="og:first_name foaf:firstName" itemprop="givenName" itemscope=""
+            <div id="name" property="name" itemprop="name" itemscope="" class="p-fn fn p-name name">
+                <span id="givenName" property="og:first_name" itemprop="givenName" itemscope=""
                     class="p-given-name given-name name">Jason</span>
                 <span class="name"> </span>
-                <span id="familyName" property="og:last_name foaf:surname" itemprop="familyName" itemscope=""
+                <span id="familyName" property="og:last_name" itemprop="familyName" itemscope=""
                     class="p-family-name family-name name">Morganson</span>
             </div>
 
             <!-- E-mail-->
-            <div id="email" property="email foaf:openid foaf:mbox rdf:resource" itemprop="email" itemscope=""
-                class="u-email email">
+            <div id="email" property="email rdf:resource" itemprop="email" itemscope="" class="u-email email">
                 <a title="E-Mail" href="mailto:jason@morganson.me" class="email">jason@morganson.me</a>
             </div>
 
