@@ -1,230 +1,310 @@
-<!DOCTYPE html>
+<!doctype html>
 
-<html lang="en" version="HTML+RDFa 1.1"
-    prefix="og: http://ogp.me/ns# rdfa: http://www.w3.org/ns/rdfa# rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<html
+    lang="en"
+    version="HTML+RDFa 1.1"
+    prefix="og: http://ogp.me/ns# rdfa: http://www.w3.org/ns/rdfa# rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+    <head>
+        <!-- Site Properities-->
+        <title>Jason Morganson</title>
 
-<head>
+        <!-- Standard Meta-->
+        <meta charset=" utf-8" />
 
-    <!-- Site Properities-->
-    <title>Jason Morganson</title>
+        <!-- Internet Explorer specific-->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 
-    <!-- Standard Meta-->
-    <meta charset=" utf-8">
+        <!-- iOS specific-->
+        <meta name="viewport" content="width=device-width" />
+        <meta name="format-detection" content="telephone=no" />
 
-    <!-- Internet Explorer specific-->
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <!-- Site Properities-->
+        <meta name="description" content="Jason Morganson" />
+        <meta name="keywords" content="Jason Morganson" />
 
-    <!-- iOS specific-->
-    <meta name="viewport" content="width=device-width">
-    <meta name="format-detection" content="telephone=no">
+        <!-- Open Graph-->
+        <meta property="og:type" content="profile" />
+        <meta property="og:first_name" content="Jason" />
+        <meta property="og:last_name" content="Morganson" />
+        <meta property="og:site_name" content="Jason Morganson" />
+        <meta property="og:title" content="Jason Morganson" />
+        <meta property="og:description" content="Jason Morganson" />
+        <meta property="og:url" content="http://jason.morganson.me" />
 
-    <!-- Site Properities-->
-    <meta name="description" content="Jason Morganson">
-    <meta name="keywords" content="Jason Morganson">
+        <!-- Meta-->
+        <link rel="me" href="acct:jason@morganson.me" />
+        <link rel="me" href="http://jason.morganson.me" />
+        <link rel="home" href="http://jason.morganson.me" />
+        <link rel="author" href="http://jason.morganson.me" />
+        <link rel="author" href="mailto:jason@morganson.me" />
+        <link rel="canonical" href="http://jason.morganson.me" />
+        <link rel="publisher" href="http://jason.morganson.me" />
+        <link rel="publisher" href="mailto:jason@morganson.me" />
 
-    <!-- Open Graph-->
-    <meta property="og:type" content="profile">
-    <meta property="og:first_name" content="Jason">
-    <meta property="og:last_name" content="Morganson">
-    <meta property="og:site_name" content="Jason Morganson">
-    <meta property="og:title" content="Jason Morganson">
-    <meta property="og:description" content="Jason Morganson">
-    <meta property="og:url" content="http://jason.morganson.me">
+        <!-- RDF-->
+        <link rel="alternate" type="application/rdf+xml" href="profile.rdf" />
 
-    <!-- Meta-->
-    <link rel="me" href="acct:jason@morganson.me">
-    <link rel="me" href="http://jason.morganson.me">
-    <link rel="home" href="http://jason.morganson.me">
-    <link rel="author" href="http://jason.morganson.me">
-    <link rel="author" href="mailto:jason@morganson.me">
-    <link rel="canonical" href="http://jason.morganson.me">
-    <link rel="publisher" href="http://jason.morganson.me">
-    <link rel="publisher" href="mailto:jason@morganson.me">
+        <!-- Turtle-->
+        <link rel="alternate" type="text/turtle" href="profile.ttl" />
 
-    <!-- RDF-->
-    <link rel="alternate" type="application/rdf+xml" href="profile.rdf">
+        <!-- Microformats-->
+        <link rel="home" href="http://jason.morganson.me" />
+        <link rel="profile" href="http://microformats.org/profile/hcard" />
+        <link rel="profile" href="http://microformats.org/profile/hresume" />
 
-    <!-- Turtle-->
-    <link rel="alternate" type="text/turtle" href="profile.ttl">
+        <link
+            rel="preload"
+            href="/fonts/SpecialElite.ttf"
+            as="font"
+            type="font/ttf"
+            crossorigin
+        />
+        <link
+            rel="preload"
+            href="/fonts/NeoRetroDraw.woff"
+            as="font"
+            type="font/woff"
+            crossorigin
+        />
+        <link
+            rel="preload"
+            href="/fonts/NeoRetroDraw.ttf"
+            as="font"
+            type="font/ttf"
+            crossorigin
+        />
+        <link
+            rel="preload"
+            href="/fonts/StrokeDimension.ttf"
+            as="font"
+            type="font/ttf"
+            crossorigin
+        />
+        <link rel="preload" href="/img/background.png" crossorigin />
 
-    <!-- Microformats-->
-    <link rel="home" href="http://jason.morganson.me">
-    <link rel="profile" href="http://microformats.org/profile/hcard">
-    <link rel="profile" href="http://microformats.org/profile/hresume">
+        <style type="text/css">
+            @font-face {
+                font-family: "Special Elite";
+                font-style: normal;
+                font-weight: 400;
+                src: url("/fonts/SpecialElite.ttf");
+                src: url("/fonts/SpecialElite.ttf") format("truetype");
+            }
 
-    <link rel="preload" href="/fonts/SpecialElite.ttf" as="font" type="font/ttf" crossorigin>
-    <link rel="preload" href="/fonts/NeoRetroDraw.woff" as="font" type="font/woff" crossorigin>
-    <link rel="preload" href="/fonts/NeoRetroDraw.ttf" as="font" type="font/ttf" crossorigin>
-    <link rel="preload" href="/fonts/StrokeDimension.ttf" as="font" type="font/ttf" crossorigin>
-    <link rel="preload" href="/img/background.png" crossorigin>
+            @font-face {
+                font-family: "Neo Retro Draw";
+                src: url("/fonts/NeoRetroDraw.woff") format("woff");
+                src: url("/fonts/NeoRetroDraw.ttf") format("truetype");
+                font-weight: normal;
+                font-style: normal;
+            }
 
-    <style type="text/css">
-        @font-face {
-            font-family: "Special Elite";
-            font-style: normal;
-            font-weight: 400;
-            src: url("/fonts/SpecialElite.ttf");
-            src: url("/fonts/SpecialElite.ttf") format("truetype");
-        }
+            @font-face {
+                font-family: "Stroke Dimension";
+                src: url("/fonts/StrokeDimension.ttf");
+                src: url("/fonts/StrokeDimension.ttf") format("truetype");
+                font-weight: normal;
+                font-style: normal;
+            }
 
-        @font-face {
-            font-family: "Neo Retro Draw";
-            src: url("/fonts/NeoRetroDraw.woff") format("woff");
-            src: url("/fonts/NeoRetroDraw.ttf") format("truetype");
-            font-weight: normal;
-            font-style: normal;
-        }
+            ::-webkit-scrollbar {
+                display: none;
+            }
 
-        @font-face {
-            font-family: "Stroke Dimension";
-            src: url("/fonts/StrokeDimension.ttf");
-            src: url("/fonts/StrokeDimension.ttf") format("truetype");
-            font-weight: normal;
-            font-style: normal;
-        }
+            * {
+                -moz-box-sizing: border-box;
+                -webkit-box-sizing: border-box;
+                box-sizing: border-box;
+            }
 
-        ::-webkit-scrollbar {
-            display: none;
-        }
+            html,
+            body {
+                min-height: 100%;
+            }
 
-        * {
-            -moz-box-sizing: border-box;
-            -webkit-box-sizing: border-box;
-            box-sizing: border-box;
-        }
+            html {
+                font-family: sans-serif;
+                -webkit-text-size-adjust: 100%;
+                -ms-text-size-adjust: 100%;
+            }
 
-        html,
-        body {
-            min-height: 100%;
-        }
+            /* Show a shadow under the broswer chrome at the top of the page */
+            body:before {
+                content: "";
+                position: fixed;
+                top: -10px;
+                left: 0;
+                width: 100%;
+                height: 10px;
+                z-index: 100;
 
-        html {
-            font-family: sans-serif;
-            -webkit-text-size-adjust: 100%;
-            -ms-text-size-adjust: 100%;
-        }
+                border-bottom-left-radius: 100% 100px;
+                border-bottom-right-radius: 100% 100px;
 
-        /* Show a shadow under the broswer chrome at the top of the page */
-        body:before {
-            content: "";
-            position: fixed;
-            top: -10px;
-            left: 0;
-            width: 100%;
-            height: 10px;
-            z-index: 100;
+                -moz-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.8);
+                -webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.8);
+                box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.8);
+            }
 
-            border-bottom-left-radius: 100% 100px;
-            border-bottom-right-radius: 100% 100px;
+            body {
+                margin: 0;
+                text-align: center;
+                text-justify: inter-word;
+                vertical-align: middle;
+                white-space: nowrap;
+                background: url("/img/background.png") no-repeat center center;
+                -moz-background-size: cover;
+                -webkit-background-size: cover;
+                -o-background-size: cover;
+                background-size: cover;
+            }
 
-            -moz-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.8);
-            -webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.8);
-            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.8);
-        }
+            a {
+                color: black;
+                text-decoration: none;
+            }
 
-        body {
-            margin: 0;
-            text-align: center;
-            text-justify: inter-word;
-            vertical-align: middle;
-            white-space: nowrap;
-            background: url("/img/background.png") no-repeat center center;
-            -moz-background-size: cover;
-            -webkit-background-size: cover;
-            -o-background-size: cover;
-            background-size: cover;
-        }
+            a:active,
+            a:hover,
+            a:focus {
+                outline: 0;
+            }
 
-        a {
-            color: black;
-            text-decoration: none;
-        }
+            .hidden-text {
+                display: none;
+                text-indent: 100%;
+                white-space: nowrap;
+                overflow: hidden;
+            }
 
-        a:active,
-        a:hover,
-        a:focus {
-            outline: 0;
-        }
+            #name {
+                font-size: 9vw;
+                font-family: "Neo Retro Draw", sans-serif;
+            }
 
-        .hidden-text {
-            display: none;
-            text-indent: 100%;
-            white-space: nowrap;
-            overflow: hidden;
-        }
+            #email {
+                font-size: 13vw;
+                font-family: "Stroke Dimension", cursive, serif;
+            }
 
-        #name {
-            font-size: 9vw;
-            font-family: "Neo Retro Draw", sans-serif;
-        }
+            #cell {
+                font-family: "Special Elite", cursive, serif;
+                font-size: 12vw;
+            }
 
-        #email {
-            font-size: 13vw;
-            font-family: "Stroke Dimension", cursive, serif;
-        }
+            #Social {
+                font-family: "Special Elite", cursive, serif;
+                font-size: 5vw;
+            }
+        </style>
+    </head>
 
-        #cell {
-            font-family: "Special Elite", cursive, serif;
-            font-size: 12vw;
-        }
-
-        #Social {
-            font-family: "Special Elite", cursive, serif;
-            font-size: 5vw;
-        }
-    </style>
-
-</head>
-
-<body vocab="http://schema.org/">
-
-    <div id="content">
-
-        <div typeof="Person" property="Person" about="http://jason.morganson.me" rdf:about="http://jason.morganson.me"
-            itemtype="http://schema.org/Person" itemscope="" profile="http://microformats.org/wiki/hcard"
-            class="Person vcard h-card">
-
-            <!-- Web Page-->
-            <div id="webpage" property="url og:url og:website" itemprop="url" itemscope=""
-                rdf:resource="http://jason.morganson.me" class="u-url url">
-                <div class="hidden-text">jason.morganson.me</div>
-            </div>
-
-            <!-- Name-->
-            <div id="name" property="name" itemprop="name" itemscope="" class="p-fn fn p-name name">
-                <span id="givenName" property="og:first_name" itemprop="givenName" itemscope=""
-                    class="p-given-name given-name name">Jason</span>
-                <span class="name"> </span>
-                <span id="familyName" property="og:last_name" itemprop="familyName" itemscope=""
-                    class="p-family-name family-name name">Morganson</span>
-            </div>
-
-            <!-- E-mail-->
-            <div id="email" property="email rdf:resource" itemprop="email" itemscope="" class="u-email email">
-                <a title="E-Mail" href="mailto:jason@morganson.me" class="email">jason@morganson.me</a>
-            </div>
-
-            <!-- Cellphone-->
-            <div id="cell" class="p-tel tel">
-                <div class="type">
-                    <div class="hidden-text">Cell</div>
+    <body vocab="http://schema.org/">
+        <div id="content">
+            <div
+                typeof="Person"
+                property="Person"
+                about="http://jason.morganson.me"
+                rdf:about="http://jason.morganson.me"
+                itemtype="http://schema.org/Person"
+                itemscope=""
+                profile="http://microformats.org/wiki/hcard"
+                class="Person vcard h-card"
+            >
+                <!-- Web Page-->
+                <div
+                    id="webpage"
+                    property="url og:url og:website"
+                    itemprop="url"
+                    itemscope=""
+                    rdf:resource="http://jason.morganson.me"
+                    class="u-url url"
+                >
+                    <div class="hidden-text">jason.morganson.me</div>
                 </div>
-                <a title="Cell" property="telephone" itemprop="telephone" itemscope="" href="tel:+15183024299"
-                    class="value">1-518-302-4299</a>
+
+                <!-- Name-->
+                <div
+                    id="name"
+                    property="name"
+                    itemprop="name"
+                    itemscope=""
+                    class="p-fn fn p-name name"
+                >
+                    <span
+                        id="givenName"
+                        property="og:first_name"
+                        itemprop="givenName"
+                        itemscope=""
+                        class="p-given-name given-name name"
+                        >Jason</span
+                    >
+                    <span class="name"> </span>
+                    <span
+                        id="familyName"
+                        property="og:last_name"
+                        itemprop="familyName"
+                        itemscope=""
+                        class="p-family-name family-name name"
+                        >Morganson</span
+                    >
+                </div>
+
+                <!-- E-mail-->
+                <div
+                    id="email"
+                    property="email rdf:resource"
+                    itemprop="email"
+                    itemscope=""
+                    class="u-email email"
+                >
+                    <a
+                        title="E-Mail"
+                        href="mailto:jason@morganson.me"
+                        class="email"
+                        >jason@morganson.me</a
+                    >
+                </div>
+
+                <!-- Cellphone-->
+                <div id="cell" class="p-tel tel">
+                    <div class="type">
+                        <div class="hidden-text">Cell</div>
+                    </div>
+                    <a
+                        title="Cell"
+                        property="telephone"
+                        itemprop="telephone"
+                        itemscope=""
+                        href="tel:+15183024299"
+                        class="value"
+                        >1-518-302-4299</a
+                    >
+                </div>
+
+                <!-- Social-->
+                <div id="Social">
+                    <!-- LinkedIn-->
+                    <a
+                        id="LinkedIn"
+                        title="LinkedIn"
+                        href="http://www.linkedin.com/in/jasonmorganson"
+                        rel="me"
+                        class="u-url url"
+                        >LinkedIn</a
+                    >
+
+                    <!-- GitHub-->
+                    <a
+                        id="GitHub"
+                        title="GitHub"
+                        href="https://github.com/jasonmorganson"
+                        rel="me"
+                        >Github</a
+                    >
+                </div>
             </div>
-
-            <!-- Social-->
-            <div id="Social">
-                <!-- LinkedIn-->
-                <a id="LinkedIn" title="LinkedIn" href="http://www.linkedin.com/in/jasonmorganson" rel="me"
-                    class="u-url url">LinkedIn</a>
-
-                <!-- GitHub-->
-                <a id="GitHub" title="GitHub" href="https://github.com/jasonmorganson" rel="me">Github</a>
-            </div>
-
         </div>
-    </div>
-</body>
-
+    </body>
 </html>
